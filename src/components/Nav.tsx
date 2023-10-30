@@ -18,7 +18,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Pages
+          Locations
         </a>
       </Typography>
       <Typography
@@ -28,7 +28,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Account
+          Tournaments
         </a>
       </Typography>
       <Typography
@@ -38,7 +38,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Blocks
+          Facebook
         </a>
       </Typography>
       <Typography
@@ -48,7 +48,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Docs
+          Dupr
         </a>
       </Typography>
     </ul>
