@@ -27,7 +27,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="https://www.pnza.org.nz/tournaments/" className="flex items-center hover:text-blue-500 transition-colors">
           Tournaments
         </a>
       </Typography>
@@ -37,7 +37,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="https://www.facebook.com/groups/369141060184018" className="flex items-center hover:text-blue-500 transition-colors">
           Facebook
         </a>
       </Typography>
@@ -47,7 +47,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="https://mydupr.com/" className="flex items-center hover:text-blue-500 transition-colors">
           Dupr
         </a>
       </Typography>
