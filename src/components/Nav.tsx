@@ -7,6 +7,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link"
  
 function NavList() {
   return (
@@ -17,7 +18,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="locations" className="flex items-center hover:text-blue-500 transition-colors">
           Locations
         </a>
       </Typography>
@@ -27,7 +28,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="https://www.pnza.org.nz/tournaments/" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="https://www.pnza.org.nz/tournaments/" target="_blank" className="flex items-center hover:text-blue-500 transition-colors">
           Tournaments
         </a>
       </Typography>
@@ -37,8 +38,8 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="https://www.facebook.com/groups/369141060184018" className="flex items-center hover:text-blue-500 transition-colors">
-          Facebook
+        <a href="coaching" className="flex items-center hover:text-blue-500 transition-colors">
+          Coaching
         </a>
       </Typography>
       <Typography
@@ -47,7 +48,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="https://mydupr.com/" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="https://mydupr.com/players" target="_blank" className="flex items-center hover:text-blue-500 transition-colors">
           Dupr
         </a>
       </Typography>
@@ -78,7 +79,7 @@ export function Nav() {
         variant="h6"
         className="mr-4 cursor-pointer py-1.5"
       >
-        PickleBall Hawkes-Bay
+        <Link href="#">PickleBall Hawkes-Bay</Link>
       </Typography>
       <div className="hidden lg:block">
         <NavList />
