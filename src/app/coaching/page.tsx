@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React from 'react'
 import CoachingImage from "../../../public/coaching.png"
-import ShaneCoachingImage from "../../../public/Shanecoaching.png"
+import ShaneCoachingImage from "../../../public/ShaneCoaching.png"
 
 function page() {
   return (
