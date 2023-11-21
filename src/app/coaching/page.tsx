@@ -13,12 +13,6 @@ function page() {
         height={500}
         alt="Picture of the author"
       />
-      <Image 
-        src={CoachingImage}
-        width={500}
-        height={500}
-        alt="Picture of the author"
-      />
     </div>
   )
 }
