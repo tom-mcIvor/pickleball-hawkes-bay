@@ -48,7 +48,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="https://mydupr.com/players" target="_blank" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="Images" target="_blank" className="flex items-center hover:text-blue-500 transition-colors">
           Dupr
         </a>
       </Typography>
