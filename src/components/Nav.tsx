@@ -48,7 +48,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="Images" target="_blank" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="https://mydupr.com/players" target="_blank" className="flex items-center hover:text-blue-500 transition-colors">
           Dupr
         </a>
       </Typography>
@@ -77,7 +77,7 @@ export function Nav() {
         as="a"
         href="#"
         variant="h6"
-        className="mr-4 cursor-pointer py-1.5"
+        className="mr-4 cursor-pointer py-1.5 hover:text-blue-500"
       >
         <Link href="#">PickleBall HawkesBay</Link>
       </Typography>
