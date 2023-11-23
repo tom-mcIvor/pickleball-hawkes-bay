@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import CoachingImage from "../../../public/coaching.png"
 import ShaneCoachingImage from "../../../public/ShaneCoaching.png"
 import Head from 'next/head'
 
