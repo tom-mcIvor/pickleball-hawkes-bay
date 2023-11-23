@@ -1,10 +1,15 @@
 'use client'
+import Head from 'next/head'
 import React from 'react'
 type Props = {}
 
 export default function page({}: Props) {
   return (
 <div className='flex min-h-screen flex-col items-center justify-center p-24'>
+<Head>
+        {/* Include the Google Analytics script */}
+        <script async src="/google-analytics.js"></script>
+      </Head>
   <ul className="grid grid-cols-2 gap-2 text-left">
     <li><span className="font-bold">Location:</span></li>
     <li>707 Sylvan Rd Hastings</li>
@@ -16,3 +21,4 @@ export default function page({}: Props) {
 </div>
   )
 }
+
