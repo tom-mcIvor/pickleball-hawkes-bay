@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
-import Head from 'next/head'
+import Script from 'next/script'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,10 +21,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        {/* Include the Google Analytics script */}
-        <script async src="/google-analytics.js"></script>
-      </Head>
+       <div className="container">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-4CYW9JNJ5Y" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+      </Script>
+    </div>
       <body className={inter.className}>
       <link rel="icon" href="../../../pickleball.png" sizes="any" />
         <Nav />
