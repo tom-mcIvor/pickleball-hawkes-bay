@@ -4,7 +4,9 @@ import React from 'react'
 import ShaneCoachingImage from "../../../public/ShaneCoaching.png"
 import Script from 'next/script'
 
-function page() {
+type Props = {}
+
+function page({}: Props) {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="container">
@@ -15,7 +17,7 @@ function page() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'G-4CYW9JNJ5Y');
         `}
       </Script>
     </div>

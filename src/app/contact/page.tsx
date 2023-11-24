@@ -1,5 +1,4 @@
 'use client'
-import Head from 'next/head'
 import React from 'react'
 import Script from 'next/script'
 
@@ -16,7 +15,7 @@ export default function page({}: Props) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'G-4CYW9JNJ5Y');
         `}
       </Script>
     </div>
@@ -31,4 +30,6 @@ export default function page({}: Props) {
 </div>
   )
 }
+
+
 
