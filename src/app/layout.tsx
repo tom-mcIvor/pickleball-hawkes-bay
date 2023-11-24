@@ -20,6 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <>
     <html lang="en">
        <div className="container">
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-4CYW9JNJ5Y" />
@@ -32,6 +33,9 @@ export default function RootLayout({
           gtag('config', 'G-4CYW9JNJ5Y');
         `}
       </Script>
+
+
+
     </div>
       <body className={inter.className}>
       <link rel="icon" href="../../../pickleball.png" sizes="any" />
@@ -40,5 +44,6 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
+    </>
   )
 }
