@@ -9,17 +9,8 @@ import { Carousel } from '@material-tailwind/react'
 function Home() {
   return (
     <>
-      <div className="h-auto w-auto">
-        <Carousel className="rounded-xl">
-            <iframe
-              title="vimeo-player"
-              src="https://player.vimeo.com/video/885921215?h=cf1be2f785"
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              allowFullScreen
-              className="absolute inset-0 w-full h-full"
-            ></iframe>
+      <div>
+        <Carousel className="rounded-xl w-1/2 h-1/2">   
           <Image src={garySwing} alt="garySwing" />
           <Image src={pickleBallCourts} alt="pickleBallCourts" />
           <Image src={garySwing} alt="garySwing" />

@@ -11,16 +11,6 @@ function Footer() {
         <li>
           <Typography
             as="a"
-            href="hittingpartners"
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-            Hitting Partners
-          </Typography>
-        </li>
-        <li>
-          <Typography
-            as="a"
             href="contact"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
