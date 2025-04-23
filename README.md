@@ -1,1 +1,1 @@
-https://pickleball-hawkesbay.com/locations
+https://pickleball-hawkesbay.com/
