@@ -2,7 +2,6 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Nav from '@/components/Nav'
-import Footer from '@/components/Footer'
 import Script from 'next/script'
 
 
@@ -37,7 +36,6 @@ export default function RootLayout({
         </Script>
         <Nav />
         {children}
-        <Footer />
       </body>
     </html>
   )
