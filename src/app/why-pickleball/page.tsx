@@ -37,7 +37,7 @@ export default function WhyPickleball() {
                 <span className="text-2xl text-white">💪</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Great Exercise</h3>
-              <p className="text-gray-600">Low-impact workout that's great for staying fit and healthy</p>
+              <p className="text-gray-600">Low-impact workout that&apos;s great for staying fit and healthy</p>
             </div>
 
             <div className="text-center p-6 rounded-xl bg-orange-50 hover:bg-orange-100 transition-colors">
@@ -75,8 +75,8 @@ export default function WhyPickleball() {
               Ready to Start Your Pickleball Journey?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Whether you're a complete beginner or looking to improve your game, our welcoming community 
-              in Hawke's Bay is here to help you discover the joy of pickleball. Join us for fun, fitness, 
+              Whether you&apos;re a complete beginner or looking to improve your game, our welcoming community 
+              in Hawke&apos;s Bay is here to help you discover the joy of pickleball. Join us for fun, fitness, 
               and friendship on the court!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

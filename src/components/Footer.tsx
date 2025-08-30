@@ -36,7 +36,7 @@ function Footer() {
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Have questions about joining or want to know more about our sessions? 
-              Send us a message and we'll get back to you!
+              Send us a message and we&apos;ll get back to you!
             </p>
           </div>
 
@@ -125,7 +125,7 @@ function Footer() {
           <li>
             <Typography
               as="a"
-              href="contact"
+              href="/contact"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >

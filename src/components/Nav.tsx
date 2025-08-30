@@ -53,25 +53,13 @@ export function Nav() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {navItems.map((item) => (
-              <div key={item.name}>
-                {item.external ? (
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-700 font-semibold hover:text-yellow-600 px-3 py-2 rounded-lg hover:bg-yellow-50 transition-all duration-200"
-                  >
-                    {item.name}
-                  </a>
-                ) : (
-                  <Link
-                    href={item.href}
-                    className="text-gray-700 font-semibold hover:text-yellow-600 px-3 py-2 rounded-lg hover:bg-yellow-50 transition-all duration-200"
-                  >
-                    {item.name}
-                  </Link>
-                )}
-              </div>
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-gray-700 font-semibold hover:text-yellow-600 px-3 py-2 rounded-lg hover:bg-yellow-50 transition-all duration-200"
+              >
+                {item.name}
+              </Link>
             ))}
 
             {/* Tournaments Dropdown */}
@@ -153,26 +141,14 @@ export function Nav() {
           <div className="lg:hidden py-4 border-t border-gray-100">
             <div className="flex flex-col space-y-2">
               {navItems.map((item) => (
-                <div key={item.name}>
-                  {item.external ? (
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block text-gray-700 font-semibold hover:text-yellow-600 px-4 py-3 rounded-lg hover:bg-yellow-50 transition-colors"
-                    >
-                      {item.name}
-                    </a>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className="block text-gray-700 font-semibold hover:text-yellow-600 px-4 py-3 rounded-lg hover:bg-yellow-50 transition-colors"
-                      onClick={() => setOpenNav(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  )}
-                </div>
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="block text-gray-700 font-semibold hover:text-yellow-600 px-4 py-3 rounded-lg hover:bg-yellow-50 transition-colors"
+                  onClick={() => setOpenNav(false)}
+                >
+                  {item.name}
+                </Link>
               ))}
               
               {/* Mobile Tournaments Section */}

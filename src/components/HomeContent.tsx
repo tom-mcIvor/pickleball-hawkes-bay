@@ -104,7 +104,7 @@ function Home() {
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">10+</div>
-                  <div className="text-sm text-gray-600">Court Locations Across Hawke's Bay With Indoor Courts</div>
+                  <div className="text-sm text-gray-600">Court Locations Across Hawke&apos;s Bay With Indoor Courts</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">500+</div>
@@ -263,7 +263,7 @@ function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
-                  <h3 className="text-2xl font-bold mb-2">John's Perfect Swing</h3>
+                  <h3 className="text-2xl font-bold mb-2">John&apos;s Perfect Swing</h3>
                   <p className="text-white/90">Dynamic action shot showcasing powerful pickleball technique</p>
                 </div>
               </div>
@@ -279,7 +279,7 @@ function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
-                  <h3 className="text-2xl font-bold mb-2">John's Athletic Reach</h3>
+                  <h3 className="text-2xl font-bold mb-2">John&apos;s Athletic Reach</h3>
                   <p className="text-white/90">Incredible athleticism and dedication to every point</p>
                 </div>
               </div>

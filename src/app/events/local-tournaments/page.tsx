@@ -11,7 +11,7 @@ export default function LocalTournaments() {
             Local Tournaments
           </h1>
           <p className="text-xl text-gray-700">
-            Competitive pickleball tournaments in the Hawke's Bay region. Check Facebook for upcoming events.
+            Competitive pickleball tournaments in the Hawke&apos;s Bay region. Check Facebook for upcoming events.
           </p>
         </div>
       </section>

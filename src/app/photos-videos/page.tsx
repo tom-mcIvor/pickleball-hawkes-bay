@@ -12,7 +12,7 @@ export default function PhotosVideos() {
             Photos & Videos
           </h1>
           <p className="text-xl text-gray-700">
-            Capturing the fun and excitement of pickleball in Hawke's Bay.
+            Capturing the fun and excitement of pickleball in Hawke&apos;s Bay.
           </p>
         </div>
       </section>
