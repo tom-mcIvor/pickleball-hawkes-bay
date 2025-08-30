@@ -20,30 +20,25 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <>
     <html lang="en">
-       <div className="container">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-4CYW9JNJ5Y" />
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-4CYW9JNJ5Y');
-        `}
-      </Script>
-
-
-
-    </div>
+      <head>
+        <link rel="icon" href="/pickleball.png" sizes="any" />
+      </head>
       <body className={inter.className}>
-      <link rel="icon" href="../../../pickleball.png" sizes="any" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-4CYW9JNJ5Y" />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+   
+            gtag('config', 'G-4CYW9JNJ5Y');
+          `}
+        </Script>
         <Nav />
         {children}
         <Footer />
       </body>
     </html>
-    </>
   )
 }
