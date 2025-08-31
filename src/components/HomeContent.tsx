@@ -104,7 +104,7 @@ function Home() {
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">10+</div>
-                  <div className="text-sm text-gray-600">Court Locations Across Hawke&apos;s Bay With Indoor Courts</div>
+                  <div className="text-sm text-gray-600">Court Locations Across Hawke&apos;s Bay Including Indoor Courts</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">500+</div>
