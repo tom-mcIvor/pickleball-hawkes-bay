@@ -115,9 +115,9 @@ function Home() {
 
             {/* Right Content - Image Carousel */}
             <div className="relative">
-              <div className="relative z-10">
+              <div className="relative z-10 group hover:scale-105 transition-transform duration-500 ease-in-out">
                 <Carousel 
-                  className="rounded-2xl shadow-2xl overflow-hidden"
+                  className="rounded-2xl shadow-2xl overflow-hidden hover:shadow-3xl transition-shadow duration-300"
                   autoplay={true}
                   loop={true}
                   navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -134,12 +134,12 @@ function Home() {
                     </div>
                   )}
                 >   
-                  <div className="relative h-96 lg:h-[500px]">
+                  <div className="relative h-96 lg:h-[500px] overflow-hidden">
                     <Image 
                       src={garySwing} 
                       alt="Player demonstrating pickleball swing technique" 
                       fill
-                      className="object-cover"
+                      className="object-cover transition-transform duration-700 hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                     <div className="absolute bottom-6 left-6 text-white">
@@ -148,12 +148,12 @@ function Home() {
                     </div>
                   </div>
                   
-                  <div className="relative h-96 lg:h-[500px]">
+                  <div className="relative h-96 lg:h-[500px] overflow-hidden">
                     <Image 
                       src={pickleBallCourts} 
                       alt="Modern pickleball courts in Hawke&apos;s Bay" 
                       fill
-                      className="object-cover"
+                      className="object-cover transition-transform duration-700 hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                     <div className="absolute bottom-6 left-6 text-white">
@@ -182,9 +182,9 @@ function Home() {
           <div className="grid lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
             
             {/* First Carousel */}
-            <div>
+            <div className="group hover:scale-105 transition-transform duration-500 ease-in-out">
             <Carousel
-              className="rounded-2xl shadow-2xl"
+              className="rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-300"
               navigation={({setActiveIndex, activeIndex, length}) => (
                 <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                   {new Array(length).fill("").map((_, i) => (
@@ -220,29 +220,29 @@ function Home() {
               )}
             >
               {/* Photo Slide 1 */}
-              <div className="relative h-96 lg:h-[500px]">
+              <div className="relative h-96 lg:h-[500px] overflow-hidden">
                 <Image 
                   src={garySwing} 
                   width={800} 
                   height={500} 
                   alt="Gary playing pickleball in action" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain transition-transform duration-700 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
-                  <h3 className="text-2xl font-bold mb-2">Gary in Action</h3>
+                  <h3 className="text-2xl font-bold mb-2">In Action</h3>
                   <p className="text-white/90">Watch our skilled players demonstrate perfect form and technique</p>
                 </div>
               </div>
 
               {/* Photo Slide 2 */}
-              <div className="relative h-96 lg:h-[500px]">
+              <div className="relative h-96 lg:h-[500px] overflow-hidden">
                 <Image 
                   src={pickleBallCourts} 
                   width={800} 
                   height={500} 
                   alt="Modern pickleball courts in Hawke's Bay" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain transition-transform duration-700 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
@@ -253,33 +253,33 @@ function Home() {
 
 
               {/* Photo Slide 4 - John Swinging */}
-              <div className="relative h-96 lg:h-[500px]">
+              <div className="relative h-96 lg:h-[500px] overflow-hidden">
                 <Image 
                   src={johnSwinging} 
                   width={800} 
                   height={500} 
-                  alt="John swinging in pickleball action" 
-                  className="w-full h-full object-contain"
+                  alt="swinging in pickleball action" 
+                  className="w-full h-full object-contain transition-transform duration-700 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
-                  <h3 className="text-2xl font-bold mb-2">John&apos;s Perfect Swing</h3>
+                  <h3 className="text-2xl font-bold mb-2">Perfect Swing</h3>
                   <p className="text-white/90">Dynamic action shot showcasing powerful pickleball technique</p>
                 </div>
               </div>
 
               {/* Photo Slide 5 - John Lunging */}
-              <div className="relative h-96 lg:h-[500px]">
+              <div className="relative h-96 lg:h-[500px] overflow-hidden">
                 <Image 
                   src={johnLunging} 
                   width={800} 
                   height={500} 
                   alt="John lunging for the pickleball" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain transition-transform duration-700 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
-                  <h3 className="text-2xl font-bold mb-2">John&apos;s Athletic Reach</h3>
+                  <h3 className="text-2xl font-bold mb-2">Athletic Reach</h3>
                   <p className="text-white/90">Incredible athleticism and dedication to every point</p>
                 </div>
               </div>
@@ -289,9 +289,9 @@ function Home() {
             </div>
 
             {/* Second Carousel */}
-            <div>
+            <div className="group hover:scale-105 transition-transform duration-500 ease-in-out">
             <Carousel
-              className="rounded-2xl shadow-2xl"
+              className="rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-300"
               navigation={({setActiveIndex, activeIndex, length}) => (
                 <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                   {new Array(length).fill("").map((_, i) => (
@@ -327,13 +327,13 @@ function Home() {
               )}
             >
               {/* Alternative Action Shots */}
-              <div className="relative h-96 lg:h-[500px]">
+              <div className="relative h-96 lg:h-[500px] overflow-hidden">
                 <Image 
                   src={pickleBallCourts} 
                   width={600} 
                   height={400} 
                   alt="Pickleball courts overview" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain transition-transform duration-700 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
@@ -342,13 +342,13 @@ function Home() {
                 </div>
               </div>
 
-              <div className="relative h-96 lg:h-[500px]">
+              <div className="relative h-96 lg:h-[500px] overflow-hidden">
                 <Image 
                   src={garySwing} 
                   width={600} 
                   height={400} 
                   alt="Player demonstrating technique" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain transition-transform duration-700 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
@@ -357,13 +357,13 @@ function Home() {
                 </div>
               </div>
 
-              <div className="relative h-96 lg:h-[500px]">
+              <div className="relative h-96 lg:h-[500px] overflow-hidden">
                 <Image 
                   src={johnSwinging} 
                   width={600} 
                   height={400} 
                   alt="Dynamic pickleball action" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain transition-transform duration-700 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-white">
